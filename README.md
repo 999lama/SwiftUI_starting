@@ -143,6 +143,7 @@ struct ContentView: View {
     }
 }
 ```
+
 * Create a frame with static height and width.
 
 #### `.background(.red)`
@@ -154,35 +155,114 @@ var body: some View {
         .background(.blue)
          .cornerRadius(20)
         .ignoresSafeArea()
-    }
   }
-    ```
+
+```
+
 * Give the view a background color
+
+
 
 ####  `.shadow(radius: 10) `
 
+```
+ var body: some View {
+        VStack {
+            Text("Hello world")
+        }
+        .background(.blue)
+        .shadow(radius: 5)
+        .ignoresSafeArea()
+    }
+
+```
+
 * Add shadow in corner of a view.
+
  
-#### .ignoresSafeArea()
+#### `.ignoresSafeArea()`
 * To apply ignore safe area.
 
-#### .blur(radius: 5) 
+#### `.blur(radius: 5) `
+
+```
+ var body: some View {
+        VStack {
+            Text("Hello world")
+        }
+        .background(.blue)
+        .blur(radius: 5)
+        .ignoresSafeArea()
+    }
+```
+    
 * give some view a blur effect.
 
-#### .cornerRadius(5) 
+#### `.cornerRadius(5) `
 * give some view a corner radius .
 
 #### .padding() 
+
+```
+   var body: some View {
+        VStack {
+            Text("Hello world")
+        }
+        .padding()
+        .padding(.vertical, 20)
+    }
+````
+
 * Add a padding to your view if you pass 5 inside the arments will apply the padding to all the corner if you speicfy the padding exmaple; .padding(.vertical, 5) will only give a vertical padding.
 
 ####  .clipShape(Capsule()) 
+
+```
+var body: some View {
+        VStack {
+            Text("Hello world")
+        }
+        .frame(width: 200, height:200)
+        .background(.red)
+        .clipShape(Capsule())
+        .padding()
+    }
+
+```
+    
 * will clip and shape the view to Capsule.
 
 ####  .foregroundColor(.white) 
+
+````
+  var body: some View {
+        VStack {
+            Text("Hello world")
+        }
+        .frame(width: 200, height:200)
+        .background(.red)
+        .clipShape(Capsule())
+        .foregroundColor(.white)
+    }
+````
+
 * Give the color for the forground example: text/ label / button 
 
 #### Spacer()
-* Give the view spacer the spacer will fit depend on the screen size it's a nice Modifers
+```
+ var body: some View {
+        VStack {
+            Spacer()
+            Text("Hello")
+            Spacer()
+            Text("world")
+            Spacer()
+        }
+     }
 
+````
+        
+
+* Give the view spacer the spacer will fit depend on the screen size it's a nice Modifers(will give equality spacing )
 
 
