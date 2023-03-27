@@ -84,4 +84,4 @@ This code is only run  in a debug environment because it doesn’t make sense in
 * ### [clipShape](https://github.com/999lama/SwiftUI_starting/blob/main/UI%20Components/Modifers/PractiesOnModifer/clipShape.md)
 * ### [foregroundColor](https://github.com/999lama/SwiftUI_starting/blob/main/UI%20Components/Modifers/PractiesOnModifer/foregroundColor.md)
 * ### [Spacer](https://github.com/999lama/SwiftUI_starting/blob/main/UI%20Components/Modifers/PractiesOnModifer/Spacer.md)
-
+* ### [Text](https://github.com/999lama/SwiftUI_starting/blob/main/UI%20Components/Text/Views/Text.md)
