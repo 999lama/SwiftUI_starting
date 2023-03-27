@@ -71,7 +71,7 @@ it’s specifically there to show view previews inside Xcode as opposed to be on
 This code is only run  in a debug environment because it doesn’t make sense in a production app.
 
 
- <h2 style="color:red;">  View And Modifers</h2>
+ <h2 style="color:red;">  Views And Modifers</h2>
 
 * ### [Stack](https://github.com/999lama/SwiftUI_starting/blob/main/UI%20Components/Stack/StackProject/stack.md)
 * ### [frame](https://github.com/999lama/SwiftUI_starting/blob/main/UI%20Components/Modifers/PractiesOnModifer/frame.md)
